@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/filter"
+            android:title="Filter">
+        <menu>
+            <item
+                android:id="@+id/filter_food"
+                android:title="Food"/>
+            <item
+                android:id="@+id/filter_cloth"
+                android:title="Cloths"/>
+            <item
+                android:id="@+id/filter_books"
+                android:title="Books"/>
+            <item
+                android:title="Clear Filters"
+                android:id="@+id/filter_clear"/>
+        </menu>
+    </item>
+
+</menu>

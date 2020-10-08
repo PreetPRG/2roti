@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">2roti_v0</string>
+    <string name="search">Search…</string>
+    <string name="country_picker_header">Select country</string>
+    <string name="error_listener_not_set">Listener is not set you will not receive any callback for country picked!</string>
+    <string name="error_no_cities_found">No Cities Found! Did you call build()</string>
+    <string name="error_no_countries_found">No Countries Found! Did you call build()</string>
+    <string name="error_no_states_found">No States Found! Did you call build()</string>
+    <string-array name="planets_array">
+        <item>Food</item>
+        <item>Clothes</item>
+        <item>Books</item>
+        <item>Any Other</item>
+    </string-array>
+    <string name="donation_guidlines">Please fill form carefully as this details will be shared along with your Name and Mobile no.\nOrganizations, if are organizing a donation camp than they can add details of it by checking the check box and fill the details appropriately.\nWe are strictly against Non-Vegetarian food.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

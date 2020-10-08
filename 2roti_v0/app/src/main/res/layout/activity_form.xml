@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FormActivity">
+
+
+        <RelativeLayout
+            android:id="@+id/layoutHead"
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <TextView
+                android:id="@+id/text_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donation Form"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/text_instrunction"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/donation_guidlines"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/text_head"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layoutHead"
+            >
+            <CheckBox
+                android:id="@+id/checkbox_organization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Is it an Organization donation camp"
+                android:onClick="onCheckboxClicked"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_organization_name"
+                android:hint="Enter Organization name"
+                android:layout_below="@+id/checkbox_organization"
+                android:textSize="24sp"
+                android:visibility="gone"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/text_category"
+                android:text="Category"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/edit_text_organization_name"
+                android:textSize="20dp"/>
+            <Spinner
+                android:id="@+id/planets_spinner"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/text_category"
+                android:layout_below="@+id/edit_text_organization_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details:"
+                android:id="@+id/text_details"
+                android:layout_below="@+id/text_category"
+                android:textSize="24sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+
+                android:id="@+id/edit_text_content"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:hint="Enter in detail what you want to donate like What food, what type of clothes, which books,etc"
+                android:layout_toRightOf="@+id/text_details"
+                android:layout_below="@+id/planets_spinner"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: "
+                android:id="@+id/text_address"
+                android:layout_below="@+id/edit_text_content"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_address"
+                android:layout_below="@+id/edit_text_content"
+                android:layout_toRightOf="@+id/text_address"
+                android:textSize="20sp"
+                android:hint="Enter address where one can take goods from you."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Landmark: "
+                android:id="@+id/text_landmark"
+                android:layout_below="@+id/edit_text_address"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_landmark"
+                android:layout_below="@+id/edit_text_address"
+                android:layout_toRightOf="@+id/text_landmark"
+                android:textSize="20sp"
+                android:hint="Enter nearest Landmark"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comment: "
+                android:id="@+id/text_comment"
+                android:layout_below="@+id/edit_text_landmark"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_comment"
+                android:hint="Any Specific to address like pickup time, etc"
+                android:layout_below="@+id/edit_text_landmark"
+                android:layout_toRightOf="@+id/text_comment"
+                android:textSize="20sp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_submit_donation_form"
+                android:text="Submit"
+                android:layout_below="@+id/edit_text_comment"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+    </RelativeLayout>

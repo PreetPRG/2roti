@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.viewDetailsActivity">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:id="@+id/details_text_name"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of the person"
+        android:id="@+id/details_text1_name"
+        android:layout_toRightOf="@+id/details_text_name"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Organization: "
+        android:id="@+id/details_text_organization_name"
+        android:layout_below="@+id/details_text_name"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Organization Name"
+        android:id="@+id/details_text1_organization_name"
+        android:layout_toRightOf="@+id/details_text_organization_name"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/details_text1_name"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact No: "
+        android:id="@+id/details_text_phone"
+        android:textSize="24sp"
+        android:layout_below="@+id/details_text_organization_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact no"
+        android:id="@+id/details_text1_phone"
+        android:layout_toRightOf="@+id/details_text_phone"
+        android:layout_below="@+id/details_text1_organization_name"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:id="@+id/details_text_category"
+        android:textSize="24sp"
+        android:layout_below="@+id/details_text_phone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:id="@+id/details_text1_category"
+        android:layout_toRightOf="@+id/details_text_category"
+        android:layout_below="@+id/details_text1_phone"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details: "
+        android:id="@+id/details_text_detail"
+        android:textSize="24sp"
+        android:layout_below="@+id/details_text_category"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details "
+        android:id="@+id/details_text1_detail"
+        android:layout_toRightOf="@+id/details_text_detail"
+        android:layout_below="@+id/details_text1_category"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+        android:id="@+id/details_text_address"
+        android:textSize="24sp"
+        android:layout_below="@+id/details_text_detail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:id="@+id/details_text1_address"
+        android:layout_toRightOf="@+id/details_text_address"
+        android:layout_below="@+id/details_text1_detail"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Landmark: "
+        android:id="@+id/details_text_landmark"
+        android:textSize="24sp"
+        android:layout_below="@+id/details_text_address"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Landmark"
+        android:id="@+id/details_text1_landmark"
+        android:layout_toRightOf="@+id/details_text_landmark"
+        android:layout_below="@+id/details_text1_address"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comment: "
+        android:id="@+id/details_text_comment"
+        android:textSize="24sp"
+        android:layout_below="@+id/details_text_landmark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:id="@+id/details_text1_comment"
+        android:layout_toRightOf="@+id/details_text_comment"
+        android:layout_below="@+id/details_text1_landmark"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"/>
+</RelativeLayout>

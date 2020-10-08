@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "923686057282",
+    "firebase_url": "https://rotiv0.firebaseio.com",
+    "project_id": "rotiv0",
+    "storage_bucket": "rotiv0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923686057282:android:4f9f05733e56843c8a84db",
+        "android_client_info": {
+          "package_name": "com.example.a2roti_v0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923686057282-s2g2m5t2fhaorf7s06m0qu6a9lcn6fod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a2roti_v0",
+            "certificate_hash": "a5287006c5a6abc7fbe940fc8e40c51acb2d5589"
+          }
+        },
+        {
+          "client_id": "923686057282-11bb8gjfi24tu40purr2og5a3bi380a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXolaAMInBjl6rYmdH2YdCiMuDk9JxrDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923686057282-11bb8gjfi24tu40purr2og5a3bi380a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

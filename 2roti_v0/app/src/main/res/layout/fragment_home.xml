@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/layoutHead"
+        android:background="@android:color/holo_blue_light"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:text="Gather the pieces that are Left Over, Let nothing be Wasted!"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_centerHorizontal="true"
+            android:enabled="true"
+            android:textSize="25dp"
+            android:id="@+id/edit_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/layoutHead"
+        >
+
+        <Button
+            android:id="@+id/button_donate"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:text="Donate" />
+
+        <Button
+            android:id="@+id/button_request"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Request" />
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
